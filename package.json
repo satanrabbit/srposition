@@ -1,0 +1,23 @@
+{
+  "family": "arale",
+  "name": "srposition",
+  "version": "1.0.0",
+  "description": "(��ͼ��ʶ����)",
+  "homepage": "https://github.com/satanrabbit/srposition",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satanrabbit/srposition.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": ["srposition.js"],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}
