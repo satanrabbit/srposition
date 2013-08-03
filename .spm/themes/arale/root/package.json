@@ -1,0 +1,27 @@
+{
+  "family": "{%= family %}",
+  "name": "{%= name %}",
+  "version": "{%= version %}",
+  "description": "{%= description %}",
+  "homepage": "{%= homepage %}",
+  "author": "{%= author %}",
+  "maintainers": [
+    "{%= author %}",
+    "{%= author %}"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "{%= repository %}"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "{%= licenses %}",
+  "spm": {
+    "output": ["{%= name %}.js"],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}
