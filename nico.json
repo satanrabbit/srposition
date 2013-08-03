@@ -1,0 +1,19 @@
+{
+  "source": "./docs",
+  "output": "./_site",
+  "theme": "./_themes/one",
+  "permalink": "{{directory}}/{{filename}}.html",
+  "sitename": "srposition",
+  "github": "https://github.com/satanrabbit/srposition",
+  "footer": "基于arale的地图标识插件,Author:satanrabbit",
+  "navigation": [
+    {"link": "index.html", "title": "使用文档"},
+    {"link": "design.html", "title": "设计文档"}
+  ],
+  "writers": [
+    "nico.StaticWriter",
+    "nico.FileWriter",
+    "nico.PostWriter",
+    "nico.YearWriter"
+  ]
+} 

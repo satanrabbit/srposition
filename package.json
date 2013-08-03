@@ -1,0 +1,36 @@
+{
+  "family": "arale",
+  "name": "srposition",
+  "version": "1.0.0",
+  "description": "基于arale的地图标识插件",
+  "homepage": "https://github.com/satanrabbit/srposition",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satanrabbit/srposition.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "srposition.js"
+    ],
+    "alias": {
+      "$": "$",
+      "widget":"arale/widget/1.1.1/widget",
+      "popup": "arale/popup/1.1.2/popup",
+      "atip": "arale/tip/1.1.4/atip",
+      "position": "arale/position/1.0.1/position",
+      "ui-poptip":"alice/poptip/1.1.1/poptip.css",
+      "events":"arale/events/1.1.0/events"
+    },
+    "devAlias": {},
+    "engines": {}
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
+}
