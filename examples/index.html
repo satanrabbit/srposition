@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>地图位置插件实例</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/function.css">
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="shortcut icon" href="img/favicon.ico"/>
+<link rel="apple-touch-icon" href="img/touchicon.png"/>
+</head>
+<body>
+<div class="g-doc">
+    <div class="g-hd">
+        head
+    </div>
+
+    <div class="g-bd f-cb">
+        <div class="g-mn">
+            <p>左侧定宽</p>
+        </div>
+        <div class="g-sd">
+            <br />
+            <br />
+            <div id="poptip1"></div>
+            <div id="test1"></div>
+        </div>
+    </div>
+    <div class="g-ft">
+        footer
+    </div>
+</div>
+<script type="text/javascript" src="../sea-modules/seajs/seajs/2.1.1/sea.js"></script>
+<script type="text/javascript" src="../sea-modules/seajs/seajs-style/1.0.0/seajs-style.js"></script>
+<script>
+
+  // Set configuration
+  seajs.config({
+    base: "../sea-modules/",
+    alias: {
+      "$-debug": "jquery/jquery/1.10.1/jquery-debug",
+      "srposition":"arale/srposition/1.0.0/srposition-debug"
+    },
+     plugins: ['style']
+  });
+    seajs.use(["srposition"], function(Srposition) {
+            var sp=new Srposition({
+              element: '#poptip1' ,width:550,
+              sites:[{"id":"1","name":"siteName","point":{"x":"150","y":"60"},"info":"站点信息"}]
+            }); 
+        });
+</script>
+</body>
+</html>
